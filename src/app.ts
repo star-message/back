@@ -10,7 +10,7 @@ class App {
   listen(port: string | number) {
     this.app.listen(port, () => {
       console.log(`http://localhost:${port}`);
-    })
+    });
   }
 }
 
