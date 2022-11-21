@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "tsc-watch --OnSuccess \"ts-node src/server.ts\"",
+    "start:dev": "NODE_ENV=development tsc-watch --OnSuccess \"ts-node src/server.ts\"",
     "prettier": "npx prettier \"src/\" --write"
   },
   "repository": {
